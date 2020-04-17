@@ -50,6 +50,10 @@
 	-o-transition: transform 0.2s ease-out;
 }
 
+.product:hover .product__header-img {
+	opacity: 0.5;
+}
+
 .product:hover .product__preview {
 	transform: translateY(-300px);
 	-webkit-transform: translateY(-300px);
