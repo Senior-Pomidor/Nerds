@@ -20,7 +20,7 @@ let next = document.querySelector('.next')
 
 function nextSlide() {
    slides[activeIndex].classList.remove(activeClass);
-   sliderControls[activeIndex].removeAttribute('checked', '');
+   // sliderControls[activeIndex].removeAttribute('checked', '');
 
    if(activeIndex >= slides.length - 1) {
       activeIndex = -1
@@ -29,7 +29,7 @@ function nextSlide() {
 
    slides[activeIndex].classList.add(activeClass);
 
-   sliderControls[activeIndex].setAttribute('checked', '');
+   // sliderControls[activeIndex].setAttribute('checked', '');
    console.log(activeIndex)
 }
 

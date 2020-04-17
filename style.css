@@ -1119,19 +1119,27 @@ hr {
       text-align: center;
    }
 
-   .slide:not(:first-child) {
+   /* .slide:not(:first-child) {
       display: none;
-   }
+   } */
 
-   .slide:first-child {
-      background-size: 70%;
-      background-position: 50% 7%;
+   .slide {
+      background-size: 70%!important;
+      background-position: 50% 7%!important;
       padding: 48% 20px 10% 20px;
       transition: none;
       -webkit-transition: none;
       -moz-transition: none;
       -ms-transition: none;
       -o-transition: none;
+   }
+
+   .slide:nth-child(2) {
+      background-size: 65%!important;
+   }
+
+   .slide__br {
+      display: none;
    }
 
    .slide__description {
