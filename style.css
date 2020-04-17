@@ -224,10 +224,6 @@ hr {
 .slider__slide_active {
    opacity: 1;
    transition: opacity 1s;
-   -webkit-transition:;
-   -moz-transition:;
-   -ms-transition:;
-   -o-transition:;
 }
 
 .slider__controls {

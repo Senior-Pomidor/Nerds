@@ -46,15 +46,16 @@
 
 		<!-- Слайдер- -->
 			<div class="slider">
+				<button class="next" onclick="nextSlide()" hidden></button>
 					<input class="slider__radio" type="radio" value="1" name="slide" id="slide1" checked>
 					<input class="slider__radio" type="radio" value="2"name="slide" id="slide2">
 					<input class="slider__radio" type="radio" value="3" name="slide" id="slide3">
 	<!-- Переключатели -->
-					<div class="slider__controls">
+					<!-- <div class="slider__controls">
 							<label class="slider__label" for="slide1"></label>	
 							<label class="slider__label" for="slide2"></label>
 							<label class="slider__label" for="slide3"></label>
-					</div>
+					</div> -->
 					<!-- Слайды -->
 					<div class="slider__inner">
 					<ul class="slider__slides">
@@ -63,7 +64,7 @@
 								скрупулёзно.</h2>
 							<p class="slide__description">Математически выверенный дизайн<br/>
 								для вашего сайта или мобильного приложения</p>
-							<a href="#" class="slide__button button button_alert">Узнать больше</a>
+							<a href="#about-us" class="slide__button button button_alert">Узнать больше</a>
 						</li>
 
 						<!--Слайд-->
@@ -72,7 +73,7 @@
 								как никто другой</h2>
 							<p class="slide__description">Никакого креатива, только математические формулы<br/>
 								для расчета идеальных пропорций</p>
-							<a href="#" class="slide__button button button_alert">Узнать больше</a>
+							<a href="#about-us" class="slide__button button button_alert">Узнать больше</a>
 						</li>
 
 						<!--Слайд-->
@@ -81,7 +82,7 @@
 								только хардкор</h2>
 							<p class="slide__description">Работать днем, как все? Мы против этого.<br/>
 								Ближе к полуночи работa только начинается</p>
-							<a href="#" class="slide__button button button_alert">Узнать больше</a>
+							<a href="#about-us" class="slide__button button button_alert">Узнать больше</a>
 						</li>
 					</ul>
 					</div>
@@ -173,22 +174,22 @@
 				<h2 class="hidden">Наши клиенты</h2>
 				<ul class="clients__list">
 					<li class="clients__item">
-						<a href="#" class="clients__link">
+						<a href="https://htmlacademy.ru/" class="clients__link" target="_blank" rel="noopener">
 							<img class="clients__img" src="assets/img/client-1.png" alt="HTML Academy">
 						</a>
 					</li>
 					<li class="clients__item">
-						<a href="#" class="clients__link">
+						<a href="http://barbershop-borodinski.webflow.io/" class="clients__link" target="_blank" rel="noopener">
 							<img class="clients__img" src="assets/img/client-2.png" alt="Borodinski">
 						</a>
 					</li>
 					<li class="clients__item">
-						<a href="#" class="clients__link">
+						<a href="https://zateya.github.io/pink/build/" class="clients__link" target="_blank" rel="noopener">
 							<img class="clients__img" src="assets/img/client-3.png" alt="Pink">
 						</a>
 					</li>
 					<li class="clients__item">
-						<a href="#" class="clients__link">
+						<a href="https://leerane.github.io/mishka/" class="clients__link" target="_blank" rel="noopener">
 							<img class="clients__img" src="assets/img/client-4.png" alt="Mishka">
 						</a>
 					</li>
@@ -216,7 +217,7 @@
 					<p class="adress-card__tel">тел: 
 						<a class="adress-card__tel-link" href="tel:+78122757575">+7 (812) 275-75-75</a>
 					</p>
-					<button class="adress-card__button button button_alert" onclick="document.querySelector('.write-us').style.display='block'"">Напишите нам</button>
+					<button class="adress-card__button button button_alert" onclick="document.querySelector('.write-us').style.display='block'">Напишите нам</button>
 				</div>
 			</div>
 		</div>
@@ -228,9 +229,9 @@
 	<section class="section contacts">
 			<h2 class="hidden">Мы в соцсетях</h2>
 			<ul class="contacts__socialss socialss">
-				<li class="socialss__item"><a href="#" class="socialss__link sociall__link_vk">Вкотакте</a></li>
-				<li class="socialss__item"><a href="#" class="socialss__link sociall__link_fb">Фейсбук</a></li>
-				<li class="socialss__item"><a href="#" class="socialss__link sociall__link_ig">Инстаграм</a></li>
+				<li class="socialss__item"><a href="https://vk.com/evisnep13" class="socialss__link sociall__link_vk" target="_blank" rel="noopener">Вкотакте</a></li>
+				<li class="socialss__item"><a href="https://twitter.com/BaronBonch" class="socialss__link sociall__link_fb" target="_blank" rel="noopener">Фейсбук</a></li>
+				<li class="socialss__item"><a href="https://www.instagram.com/sugarbob99/" class="socialss__link sociall__link_ig" target="_blank" rel="noopener">Инстаграм</a></li>
 			</ul>
 			<p class="contacts__promo promo">
 				<span class="promo__title">Давайте дружить, это&#160;выгодно!</span><br/>
