@@ -111,6 +111,78 @@
 		</div>
 	</main>
 
+	<footer class="main-footer footer">
 	
+		<!--Карта-->
+		<section class="section location" id="contacts">
+			
+			<h2 class="hidden">Где нас искать?</h2>
+			
+			<div class="map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac88036d75994b408d28bb66288058d7de1ec909554abe1b7b25787b93167bb18&amp;width=100%25&amp;height=415&amp;lang=ru_RU&amp;scroll=true"></script>
+				<div class="container">
+					<div class="map__adress-card adress-card">
+						<h3 class="adress-card__title">Nёrds design studio</h3>
+						<adress class="adress-card__adress">191186, Санкт-Петербург, <br/> ул. Б. Конюшенная, д. 19/8</adress>
+						<p class="adress-card__tel">тел: 
+							<a class="adress-card__tel-link" href="tel:+78122757575">+7 (812) 275-75-75</a>
+						</p>
+						<button class="adress-card__button button button_alert" onclick="document.querySelector('.write-us').style.display='block'">Напишите нам</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!--Контакты-->
+			<div class="container">
+		<section class="section contacts">
+				<h2 class="hidden">Мы в соцсетях</h2>
+				<ul class="contacts__socialss socialss">
+					<li class="socialss__item"><a href="https://vk.com/evisnep13" class="socialss__link sociall__link_vk" target="_blank" rel="noopener">Вкотакте</a></li>
+					<li class="socialss__item"><a href="https://twitter.com/BaronBonch" class="socialss__link sociall__link_fb" target="_blank" rel="noopener">Фейсбук</a></li>
+					<li class="socialss__item"><a href="https://www.instagram.com/sugarbob99/" class="socialss__link sociall__link_ig" target="_blank" rel="noopener">Инстаграм</a></li>
+				</ul>
+				<p class="contacts__promo promo">
+					<span class="promo__title">Давайте дружить, это&#160;выгодно!</span><br/>
+					Скидка 10% для друзей из социальных сетей
+				</p>
+		
+		</section>
+		</div>
+	</footer>
+	
+	<section class="section write-us">
+			<div class="write-us__background" onclick="document.querySelector('.write-us').style.display='none'"></div>
+		<div class="wright-us__wrapper">
+		<h2 class="write-us__header">Напишите нам</h2>
+		<button class="write-us__close" href="javascript:void(0)" onclick="document.querySelector('.write-us').style.display='none'">Закрыть</button>
+		<form class="write-us__form" action="#" target="myIFR">
+				<iframe name="myIFR" style="display: none"></iframe>
+			<div class="write-us__top">
+				<div class="write-us__form-group write-us__form-group_side write-us__form-group_left">
+					<label class="write-us__label" for="name">Ваше имя: </label>
+					<input class="write-us__input" type="text" id="name" name="name" placeholder="Представьтесь, пожалуйста" required>
+				</div>
+				<div class="write-us__form-group write-us__form-group_side">
+					<label class="write-us__label" for="email">Ваш e-mail: </label>
+					<input class="write-us__input" type="email" id="email" name="email" placeholder="Для отправки ответа" required>
+				</div>
+			</div>
+			<div class="write-us__form-group">
+				<label class="write-us__label" for="text">
+					Текст письма: 
+				</label>
+				<textarea  class="write-us__textarea" name="text" id="text" placeholder="В свободной форме" required></textarea>
+			</div>
+			<input  class="write-us__button 	button button_alert" type="submit" value="Отправить">
+		</form>
+		<p class="write-us__success-message success-message hidden">
+			<span class="success-message__title">Ваше сообщение успешно отправлено!</span><br/>
+			Ответ будет отправлен на указанную почту<br/>в ближайшее время. 
+		</p>
+		</div>
+	</section>
+	<script src="form.js"></script>
 </body>
 </html>
