@@ -1088,19 +1088,17 @@ hr {
       top: 115px;
       left: -85%;
       z-index: 10;
-
       font-size: 150%;
       background-color: #e5e5e5;
       box-shadow: 0 7px 7px #000;
       border: 1px solid #eee;
       padding: 0;
-      
-      transition: transform 01s;
-      -webkit-transition: transform 01s;
-      -moz-transition: transform 01s;
-      -ms-transition: transform 01s;
-      -o-transition: transform 01s;
-   }
+      transition: transform 0.5s;
+      -webkit-transition: transform 0.5s ease-out;
+      -moz-transition: transform 0.5s;
+      -ms-transition: transform 0.5s;
+      -o-transition: transform 0.5s;
+}
 
    .main-nav__list_active {
       transform: translateX(108%);
