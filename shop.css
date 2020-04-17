@@ -9,3 +9,22 @@
 	text-align: center;
 	margin-top: 50px;
 }
+
+.showcase {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0 20px;
+}
+
+.product {
+	display: inline-block;
+	width: 30%;
+	max-width: 340px;
+}
+
+.product__header-img,
+.product__thumbnail {
+	display: block;
+	width: 100%;
+}
