@@ -14,13 +14,12 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	padding: 0 20px;
 }
 
 .product {
 	display: inline-block;
-	width: 30%;
 	max-width: 340px;
+	padding: 20px;
 }
 
 .product__header-img,
